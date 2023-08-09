@@ -1,12 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import titleReducer from './titleSlice';
-import usersReducer from './usersSlice';
-import calculatorReducer from './calculatorSlice';
+import { configureStore } from '@reduxjs/toolkit'
+import postsReducer from './PostsSlice'
 
 export const store = configureStore({
-  reducer: {
-    titleReducer, 
-    usersReducer, 
-    calculator: calculatorReducer, 
-  },
-});
+    reducer: {
+        postsReducer
+    }
+})

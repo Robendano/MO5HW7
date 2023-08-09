@@ -1,14 +1,14 @@
 import './App.css';
-import UsersPage from './pages/userPage/UserPage';
-// import MainPage from './pages/mainPage/MainPage';
-import Calculator from './pages/calculatorsPage/CalculatorsPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PostPage from './pages/postPage/PostPage';
+// import CreatePostsPage from './pages/createPostsPage/CreatePostsPage';
+
 
 function App() {
   return (
-    <div className="App">
-      {/* <MainPage /> */}
-      <UsersPage />
-      <Calculator />
+    <div className='App'>
+      {/* <CreatePostsPage /> */}
+      <PostPage />
     </div>
   );
 }
